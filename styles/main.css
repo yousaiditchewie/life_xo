@@ -35,10 +35,10 @@ rgba(18,234,234,0.65)*/
   z-index: -5;
   height: 100vh;
   min-height: 600px;
-  /*background: linear-gradient(
-      rgba(2,43,58,0.5),
-      rgba(217,85,88,0.3)
-    );*/
+  background: linear-gradient(
+      rgba(48,188,237,0.5),
+      rgba(48,188,237,0.5)
+    );
   background-size: cover;
   background-position: center;
   margin-bottom: 0px;

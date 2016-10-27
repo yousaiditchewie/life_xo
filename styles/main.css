@@ -4,7 +4,7 @@
 which the user cannot interact with */
 
 
-img {
+iframe {
   filter: gray; /* IE6-9 */
     filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
     -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -43,8 +43,8 @@ rgba(18,234,234,0.65)*/
   height: 100vh;
   min-height: 600px;
   background: linear-gradient(
-      rgba(48,188,237,0.5),
-      rgba(48,188,237,0.5)
+      rgba(48,188,237,0.65),
+      rgba(48,188,237,0.65)
     );
   background-size: cover;
   background-position: center;

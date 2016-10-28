@@ -104,3 +104,38 @@ rgba(18,234,234,0.65)*/
   text-align: center;
   font-weight: 500;
 }
+
+.links {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.links a {
+  /*font-weiht: 200;*/
+  font-size: 20px;
+  margin: 30px;
+  color: #F5FFC5;
+  /*background-color: rgba(184,170,186,.25);*/
+  padding: 10px;
+  /*border: 1px solid #F5FFC5;*/
+  /*border-radius: 3px;*/
+}
+
+.hover a:hover {
+  /*font-size: 21px;*/
+  color: #5CF2D4;
+  transition: 1s;
+}
+
+.how {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.how a {
+  /*font-weight: 200;*/
+  font-size: 20px;
+  color: #F5FFC5;
+}
+
+

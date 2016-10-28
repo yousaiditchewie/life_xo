@@ -3,6 +3,32 @@
 /* Makes a fixed background wrapper
 which the user cannot interact with */
 
+/*Raleway font (secondary)*/
+/*font-family: 'Raleway', sans-serif;*/
+
+/*Prata font (primary)*/
+/*font-family: 'Prata', serif;*/
+
+/*Yeseva One font (primary)*/
+/*font-family: 'Yeseva One', cursive;*/
+
+/*HELPER CLASSES*/
+/*TEXT SHADOW*/
+.shadows {
+  text-shadow: 0px 2px 8px rgba(0,0,0,0.65);
+}
+
+.prime-type {
+  font-family: 'Yeseva One', cursive;
+}
+
+.second-type {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  color: #F5FFC5;
+}
 
 iframe {
   filter: gray; /* IE6-9 */
@@ -41,12 +67,40 @@ rgba(18,234,234,0.65)*/
 .jumbotron{
   z-index: -5;
   height: 100vh;
+  /*width: 100%;*/
   min-height: 600px;
   background: linear-gradient(
-      rgba(48,188,237,0.65),
-      rgba(48,188,237,0.65)
+      rgba(60,23,66,0.65),
+      rgba(60,23,66,0.65)
     );
   background-size: cover;
   background-position: center;
   margin-bottom: 0px;
+}
+
+#brand-outter {
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+#brand {
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+#logo {
+  /*margin-top: 275px;*/
+  /*margin-left: auto;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  font-size: 85px;
+  /*padding-bottom: 300px;*/
+  text-align: center;
+}
+
+#slogan {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
 }
